@@ -185,7 +185,7 @@ a {
 .production .hr {
   width: 100%;
   height: 2px;
-  margin: 80px 0;
+  margin: 60px 0 40px;
   background-color: #FFDD00;
 }
 .production .production_razdel {
@@ -208,9 +208,11 @@ a {
 }
 
 .hide-production {
-  margin: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin: 0 0 30px;
   padding: 0;
-  float: right;
   color: #014289;
   text-decoration: none;
 }
@@ -218,6 +220,60 @@ a {
 .product-item {
   position: relative;
   display: flex;
-  padding: 20px 30px;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 30px;
+  padding: 30px;
   background-color: rgba(1, 66, 137, 0.1);
+  color: #014289;
+  transition: scale 0.3s;
+}
+.product-item .product-title {
+  font-size: 30px;
+  font-family: PT Sans Caption;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.product-item .status-block {
+  margin: 14px 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+.product-item .status-block .status {
+  min-width: 94px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.product-item .status-block .prod-content {
+  background-color: #1fe000;
+}
+.product-item .status-block .prod-action {
+  background-color: #e00000;
+}
+.product-item .status-block .prod-lider {
+  background-color: #008fe0;
+}
+.product-item .product-image {
+  margin: 20px auto;
+  display: inline-block;
+  text-align: center;
+  max-width: 280px;
+}
+.product-item .product-param {
+  margin: 14px 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  line-height: 130%;
+}
+.product-item:hover {
+  color: #014289;
+  scale: 1.05;
 }/*# sourceMappingURL=style-main.css.map */
