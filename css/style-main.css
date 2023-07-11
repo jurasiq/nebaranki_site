@@ -405,4 +405,117 @@ a {
 }
 .map-block img {
   margin-bottom: 25px;
+}
+
+.footer {
+  min-width: 100%;
+}
+
+.footer-cont {
+  width: 100%;
+  margin: 60px 0;
+  padding: 40px 0;
+  border-radius: 20px 230px 20px 110px;
+  background: #014289;
+}
+.footer-cont .logo-footer {
+  display: block;
+  max-width: 134px;
+  margin: 60px auto;
+}
+.footer-cont .footer-menu {
+  margin: 60px 0;
+}
+.footer-cont .footer-menu ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 136px;
+  margin: 0;
+  padding: 0;
+}
+.footer-cont .footer-menu ul li {
+  position: relative;
+  width: 50%;
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+.footer-cont .footer-menu a {
+  color: #fff;
+}
+.footer-cont .footer-menu a:hover {
+  text-decoration: underline;
+}
+.footer-cont .contact-footer {
+  margin: 80px 0 40px;
+  color: #fff;
+}
+.footer-cont .contact-footer .footer-phone {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 100%;
+}
+.footer-cont .contact-footer .footer-phone span {
+  display: inline-block;
+  margin-right: 20px;
+  width: 34px;
+  height: 34px;
+  background: url(../img/icon-wphone.svg) no-repeat center;
+  vertical-align: middle;
+}
+.footer-cont .contact-footer .footer-email {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.footer-cont .contact-footer .footer-email span {
+  margin-right: 20px;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: url(../img/icon-wemail.svg) no-repeat center;
+  vertical-align: middle;
+}
+.footer-cont .hr {
+  height: 1px;
+  width: 85%;
+  margin: 40px auto;
+  background: #fff;
+  opacity: 0.5;
+}
+.footer-cont .subscribe-us {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: end;
+}
+.footer-cont .subscribe-us p {
+  display: inline-block;
+  margin: 0;
+}
+.footer-cont .subscribe-us .yt, .footer-cont .subscribe-us .vk {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+}
+.footer-cont .subscribe-us .yt {
+  background: url(../img/youtube.svg) no-repeat center;
+}
+.footer-cont .subscribe-us .vk {
+  background: url(../img/vkontakte.svg) no-repeat center;
+}
+.footer-cont .copyright {
+  color: #fff;
+  opacity: 0.5;
+}
+.footer-cont .copyright p {
+  margin: 0;
+}
+.footer-cont .copyright a {
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: underline;
 }/*# sourceMappingURL=style-main.css.map */
