@@ -8,7 +8,7 @@
 	border-radius: 20px 230px 20px 110px
 	background: #014289
 	.logo-footer
-		display: block
+		display: inline-block
 		max-width: 134px
 		margin: 60px auto
 	.footer-menu
@@ -62,7 +62,7 @@
 		margin: 40px auto
 		background: #fff
 		opacity: 0.5
-	
+
 	.subscribe-us
 		display: flex
 		align-items: center
@@ -80,7 +80,7 @@
 			background: url(../img/youtube.svg) no-repeat center
 		.vk
 			background: url(../img/vkontakte.svg) no-repeat center
-	
+
 	.copyright
 		color: #fff
 		opacity: 0.5
@@ -91,3 +91,29 @@
 			opacity: 0.5
 			text-decoration: underline
 
+@media (max-width: 767px)
+	.footer-cont
+		border-radius: 40px 70px 20px 69px
+		.logo-footer
+			max-width: 58px
+			margin: 40px 0
+		.contact-footer
+			margin: 40px 0
+			.footer-phone
+				font-size: 1.3rem
+				span
+					width: 16px
+					height: 16px
+					background-size: 100%
+			.footer-email
+				font-size: 0.8rem
+				span
+					width: 16px
+					height: 16px
+					background-size: 100%
+		.subscribe-us
+			justify-content: center
+			margin-bottom: 30px
+		.copyright
+			text-align: center
+			font-size: 0.9rem

@@ -1,10 +1,16 @@
 .zayavka {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 24px;
   margin-bottom: 60px;
   background: rgba(1, 66, 137, 0.05);
-  align-items: start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .zayavka .icon-partners {
   display: inline-block;
